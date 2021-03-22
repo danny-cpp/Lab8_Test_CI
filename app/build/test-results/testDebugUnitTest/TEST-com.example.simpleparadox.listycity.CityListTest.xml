@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.simpleparadox.listycity.CityListTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-22T21:59:39" hostname="MEGA-MACHINE" time="0.006">
+  <properties/>
+  <testcase name="testAdd()" classname="com.example.simpleparadox.listycity.CityListTest" time="0.005"/>
+  <testcase name="testAddFixed()" classname="com.example.simpleparadox.listycity.CityListTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
