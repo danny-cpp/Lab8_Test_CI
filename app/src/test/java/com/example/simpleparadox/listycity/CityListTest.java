@@ -31,14 +31,14 @@ class CityListTest {
 
 
     @Test
-    void testAddFail() {
+    void testAddFixed() {
         CityList cityList = mockCityList();
 
         assertEquals(1, cityList.countCities());
 
-        cityList.add(new City("Regina", "Saskatchewan"));
+        cityList.add(new City("Sth", "some more"));
 
-        assertEquals(1, cityList.countCities());
-        assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
+        assertEquals(2, cityList.countCities());
+        assertTrue(cityList.hasCity(new City("Sth", "some more")));
     }
 }
